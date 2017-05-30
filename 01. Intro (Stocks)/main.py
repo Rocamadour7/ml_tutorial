@@ -42,9 +42,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 pickle_in = open('linearregression.pickle', 'rb')
 classifier = pickle.load(pickle_in)
 
-confidence = classifier.score(X_test, y_test)
+accuracy = classifier.score(X_test, y_test)
 forecast_set = classifier.predict(X_lately)
-print(forecast_set, confidence, forecast_out)
+print(forecast_set, accuracy, forecast_out)
 dataframe['Forecast'] = np.nan
 
 last_date = dataframe.iloc[-1].name
