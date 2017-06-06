@@ -17,7 +17,6 @@ class K_Means:
     def fit(self, data):
         self.centroids = {}
         for i in range(self.k):
-            np.random.shuffle(data)
             self.centroids[i] = data[i]
         for i in range(self.max_iter):
             self.classifications = {}
