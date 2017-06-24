@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\Code\\ML Course\\07. Deep Learning\\dogs_vs_cats\\dogsvscats-0.001-5conv-basic.model"
+all_model_checkpoint_paths: "D:\\Code\\ML Course\\07. Deep Learning\\dogs_vs_cats\\dogsvscats-0.001-5conv-basic.model"
